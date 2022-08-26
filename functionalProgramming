@@ -1,0 +1,10 @@
+var inputCurrency = 100;
+var exchangeRate = 1.2;
+var convertedCurrency;
+
+function convertCurrency(currency, rate) {
+    return currency*rate;
+}
+
+convertedCurrency = convertCurrency(inputCurrency,exchangeRate);
+console.log(convertedCurrency);
