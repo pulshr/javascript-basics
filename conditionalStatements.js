@@ -36,3 +36,8 @@ switch(day) {
     default:
         console.log("There is no such day");
 }
+/**
+ * Output:
+ * You get an allowance.
+ * Do coding 7
+ */
