@@ -14,3 +14,31 @@ var assistantManager = {
     streetSmart: 30,
     health: 40
 };
+
+
+//purchase object
+var purchase1 = {
+    shoes: 100,
+    stateTax: 1.2,
+    totalPrice: function() {
+        var total =  this.shoes*this.stateTax;
+        console.log("Total: "+total);
+    }
+}
+
+purchase1.totalPrice();
+//output = 120
+
+//using class and constructor
+class Bill {
+    constructor(rate, tax) {
+        this.rate = rate;
+        this.tax = tax;
+    }
+    totalPrice() {
+        return this.rate*this.tax;
+    }
+}
+var bill1 = new Bill(100,1.2);
+console.log(bill1.totalPrice());
+//output = 120
