@@ -6,4 +6,7 @@ Learning JS from scratch
  - Conditional Statements
  - Looping Statements
  - Functional Programming
+ - Nested Looping
+ - OOPS
+ - Arrays
   
